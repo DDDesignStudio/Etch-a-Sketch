@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 960px;
+    height: 960px;
+}
+
+#creategrid {
+    margin-bottom: 25px;
+}
+
+.grid-square {
+    box-sizing: border-box;
+    border: thin dotted black;
+    width: calc(960px / 16);
+    height: calc(960px / 16);
+}
+
+.grid-square:hover {
+    background-color: #000;
+}
